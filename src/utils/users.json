@@ -1,0 +1,23 @@
+[
+    {
+        "id": "0",
+        "firstname": "Nikolas",
+        "lastname": "Paneblanco",
+        "age": 34,
+        "sex": "male"
+    },
+    {
+        "id": "1",
+        "firstname": "Juan",
+        "lastname": "Juarez",
+        "age": 0,
+        "sex": ""
+    },
+    {
+        "id": "2",
+        "firstname": "",
+        "lastname": "",
+        "age": 0,
+        "sex": ""
+    }
+]

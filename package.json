@@ -2,7 +2,11 @@
   "name": "forms-with-formik",
   "private": true,
   "version": "1.0.0",
-  "author": {"email": "nikolas090189@gmail.com", "name": "nikoDev", "url": "https://github.com/pmNiko"},
+  "author": {
+    "email": "nikolas090189@gmail.com",
+    "name": "nikoDev",
+    "url": "https://github.com/pmNiko"
+  },
   "type": "module",
   "repository": {
     "type": "github",
@@ -21,7 +25,8 @@
     "formik": "^2.2.9",
     "material-ui-popup-state": "^5.0.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "yup": "^1.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
