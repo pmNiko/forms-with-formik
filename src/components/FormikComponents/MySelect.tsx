@@ -12,10 +12,9 @@ interface Props {
   name: string;
   placeholder?: string;
   options: { value: string; label: string }[];
-  defaultValue?: string;
   [x: string]: any;
 }
-export const MySelect = ({ label, defaultValue, options, ...props }: Props) => {
+export const MySelect = ({ label, options, ...props }: Props) => {
   const [field] = useField(props);
 
   return (
@@ -33,7 +32,6 @@ export const MySelect = ({ label, defaultValue, options, ...props }: Props) => {
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           label={label}
-          value={defaultValue}
         >
           {options.map((opt, i) => (
             <MenuItem key={opt.label + i} value={opt.value}>

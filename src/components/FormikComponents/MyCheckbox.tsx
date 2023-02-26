@@ -9,23 +9,17 @@ interface Props {
 }
 
 export const MyCheckbox = ({ label, ...props }: Props) => {
-  const [checked, setChecked] = useState(true);
   const [field] = useField({ ...props, type: "checkbox" });
 
   return (
     <>
       <FormControlLabel
-        control={
-          <Checkbox checked={checked} onChange={() => setChecked(!checked)} />
-        }
-        label={
-          <Typography variant="subtitle2">
-            Deseo adherirme a la factura electronica por email.
-          </Typography>
-        }
         {...field}
         {...props}
+        control={<Checkbox />}
+        label={label}
       />
+
       <Typography variant="caption" color="red">
         <ErrorMessage name={props.name} component="span" />
       </Typography>
