@@ -1,4 +1,6 @@
-export { ListUsersPage } from './ListUsersPage';
-export { UserPage } from "./UserPage";
+export { CharactersPage } from './CharactersPage'
 
-export { HomePage } from "./HomePage";
+export { ListUsersPage } from './ListUsersPage'
+export { UserPage } from './UserPage'
+
+export { HomePage } from './HomePage'
